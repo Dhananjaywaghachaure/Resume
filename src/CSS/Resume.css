@@ -1,0 +1,157 @@
+body{margin: 0px;
+    padding:0px;
+    background-image: radial-gradient(#c7c7c7 25%,#c7c7c7 74%);
+    font-family: system-ui;
+  }
+  .clearit{
+  clear: both;
+  }
+  
+  .main{
+  height: 1320px;
+  width: 900px;
+  background-color:white;
+  box-shadow: 5px 7px 15px 5px #3b1e1e;
+  margin:20px auto;
+  }
+  
+  .top-section{
+  background-color: rgb(31, 14, 62);
+  text-align:center;
+  padding:15px;
+  }
+  
+  .profile{
+  width:150px;
+  border:50%;
+  }
+  
+  .p1{
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  margin:0px;
+  margin-top:0px;
+  }
+  
+  
+  .p2{
+  font-size: 25px;
+  color: white;
+  font-weight: 500;
+  margin:0px;
+  margin-top: 10px;
+  }
+  
+  .content-box{
+    padding: 2rem;
+    text-align: left;
+    margin-top: -2.7rem;
+  }
+  
+  .p3 {
+  font-size: 14px; 
+  color: black;
+  margin-bottom: -6px;
+  }
+  
+  .material-symbols-outlined {
+  display: inline-block; 
+  vertical-align: middle; 
+  color:#151b29;
+  }
+  
+  .head{
+  text-decoration: underline;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgb(17, 16, 16);
+  }
+  
+  .node{
+  padding-left: 35px;
+  }
+  
+  .head-main{
+    margin-top: 6px;
+  }
+  
+  .col-div-1{
+    width:36%;
+    float:left;
+  }
+  
+  .col-div-2{
+    width:60%;
+    float:left;
+  }
+  
+  .line{
+    border-left: 1px solid #c7c7c7;
+    height: 980px;
+    width:0.5%;
+    margin-top: 13px;
+    float:left;
+  }
+  
+  #prof{
+    font-size: 13px;
+    
+  }
+  
+  
+  .sub{
+    font-size: 13px;
+    margin-bottom: 0px;
+    color: black;
+  }
+  
+  .educ{
+    margin-top: 03px;
+  }
+  
+  .heading{
+      font-size: 15px;
+      font-weight:bold;
+      color: rgb(10, 10, 10);
+    
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
