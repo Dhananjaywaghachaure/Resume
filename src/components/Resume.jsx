@@ -20,7 +20,7 @@ const Resume = () => {
                       <div className='col-div-1'>
                             <div className='content-box'>
                                   <div className='head-main'>
-                                      <p className='head'>My Contact</p>
+                                      <p className='educ2'>My Contact</p>
                                       <p className='p3'><span className="material-symbols-outlined">
                                       mail</span>dhananjaycv1829@gmail.com</p>
                                       <p className='p3'><span className="material-symbols-outlined">call</span>+91 9867205980</p>
@@ -29,7 +29,7 @@ const Resume = () => {
                                   </div>
                   
 
-                                 <div  className='head-main'><p className='head'>My Skills</p>
+                                 <div  className='head-main'><p className='educ2'>My Skills</p>
                                        <ul className='node'>
                                        <li><span className='p3'>Java</span></li>
                                       <li><span className='p3'>JavaScript</span></li>
@@ -40,7 +40,7 @@ const Resume = () => {
                                  </div> 
                          
                            
-                                 <div className='head-main'><p className='head'>Personal Details</p>
+                                 <div className='head-main'><p className='educ2'>Personal Details</p>
                                        <ul className='node'>
                                       <li><span className='p3'>BirthDate: 24/06/1994</span></li>
                                      <li><span className='p3'>Gender: Male</span></li>
@@ -51,8 +51,8 @@ const Resume = () => {
                          
 
                           
-                                <div className='head-main'><p className='head'>Languages</p>
-                                      <ul className='node'>
+                                <div className='head-main'><p className='educ2'>Languages</p>
+                                 <ul className='node'>
                                      <li><span className='p3'>English</span></li>
                                     <li><span className='p3'>Marathi</span></li>
                                     <li><span className='p3'>Hindi</span></li>
@@ -60,36 +60,44 @@ const Resume = () => {
                                </div>
 
 
-                               <div className='head-main'><p className='head'>Education</p>
+                               <div className='head-main'><p className='educ2'>Education</p>
                                <div className='sub'>
                                     <p className='heading'>PG Diploma in Advanced Computing </p>
-                                    <p className='educ'>Completed In 2023 76.63%</p>
+                                    <p className='educ1'>Completed In 2023 76.63%</p>
                               </div>
 
                               <div className='sub'>
                                     <p className='heading'>MGM’s College Of Engineering kamothe, Navi
                                                             Mumbai. Bachelors in Civil Engineering </p>
-                                    <p className='educ'>Completed In 2018 CGPA 6.14</p>
+                                    <p className='educ1'>Completed In 2018 CGPA 6.14</p>
                               </div>
 
                               <div className='sub'>
                                     <p className='heading'>ALC Junior College Of Wada-Palghar </p>
-                                    <p className='educ'>HSC Completed 2012.</p>
+                                    <p className='educ1'>HSC Completed 2012.</p>
                               </div>
 
                                </div>
-
+                               <div className='head-main'>
+                                          <p className='educ2'>DECLARATION</p>
+                                           <p className='p-4' id='prof'> I hereby declare that the above written particulars are true to the best of my knowledge and belief.
+                                                .</p>
+                                                <p className='dhan1'>Signature-------------------</p>
+                                                <p className='dhan'>DHANANJAY WAGHACHAURE</p>
+                                </div>
 
                          </div>
                    </div>
+
+                  
 
                   <div className='line'></div>
 
                  <div className='col-div-2'>
                         <div className='content-box'>
                                 <div className='head-main'>
-                                          <p className='head'>Profile</p>
-                                           <p className='p3' id='prof'> Enthusiastic and motivated React Developer with a
+                                          <p className='educ2'>Profile</p>
+                                           <p className='p-4' id='prof'> Enthusiastic and motivated React Developer with a
                                                 passion for front-end development and creating
                                                 engaging user experiences. Recently graduated with
                                                 a degree in PG-DAC, eager to leverage theoretical
@@ -104,10 +112,10 @@ const Resume = () => {
                                 </div>
 
                                 <div className='head-main'>
-                                          <p className='head'>Experience</p>
+                                          <p className='educ2'>Experience</p>
                                 <div className='sub'>
                                         <p className='heading'>Junior Engineer (Sept- 2021 - July-2023)</p>
-                                        <p className='sub-heading'>Water Supply Dept Zillah Parishad Palghar, Sub Division Wada (Govt.)</p>
+                                        <p className='educ'>Water Supply Dept Zillah Parishad Palghar, Sub Division Wada (Govt.)</p>
                                         <p className='p-4'>Preparing & Sanctioning Estimate, Billing and Execution of Site Work As per
                                                        DPR, As Well as, Preparing Detail Project Reports, Co-ordination amoung the
                                                        Senior officers about new scheme proposed by State Gov. & Centeral Gov.,
@@ -116,12 +124,21 @@ const Resume = () => {
                                        </p>
                                 </div>
 
-
+                                <div className='sub'>
+                                        <p className='heading'>Site Engineer (Oct-2019 - Oct-2020)</p>
+                                        <p className='educ'>D.K. Gadhave Constructions</p>
+                                                <p className='p-4'>Planning and designing water supply infrastructure such as pipelines,
+                                                                  pump stations, reservoirs, and treatment plants.Evaluating water quality and implementing measures for water treatment and purification.
+                                                                  Monitoring water usage patterns and demand to ensure adequate supply.Collaborating with other engineering disciplines, government agencies,
+                                                                  and stakeholders on water resource management projects.
+                                                                  Providing technical expertise and support to resolve water supply-related issues and challenges.
+                                          </p>
+                                </div>
                                
 
                                 <div className='sub'>
                                         <p className='heading'>Site Engineer (Aug-2018 - Sep-2019)</p>
-                                        <p className='sub-heading'>Jijau Constructions Road Builder PVT.LTD</p>
+                                        <p className='educ'>Jijau Constructions Road Builder PVT.LTD</p>
                                         <p className='p-4'>Dedicated and experienced Road Builder with a proven track record in
                                                          overseeing and managing the construction of roads and highways. Adept at
                                                          coordinating construction activities, ensuring adherence to safety standards,
@@ -133,7 +150,7 @@ const Resume = () => {
                         </div>
                         
                         <div className='head-main'>
-                               <p className='head'>Projects</p>
+                               <p className='educ2'>Projects</p>
                                <div className='sub'>
                                     <p className='heading'>Readme Up! (2-Month) </p>
                                     <p className='educ'>Platform: MS.NET</p>
